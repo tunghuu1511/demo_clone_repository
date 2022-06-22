@@ -1,0 +1,65 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	margin-top:10px;
+}
+.container-fluid{
+	width:90%;
+}
+figure{
+	width:200px;
+	height:220px;
+	float:left;
+	text-align:center;
+	margin:10px;
+	padding:10px;
+	border:1px solid gray;
+}
+figure img{
+	max-width:150px;
+	height:150px;	
+	border:none;
+}
+figure figcaption{
+	height:50px;
+	overflow:hidden;
+}
+ul{
+	list-style-type:none;
+}
+.thuc-don-ngang{
+	width:90%;
+	min-height:40px;
+	margin:auto;
+	text-align:center;
+	background-color:#59961F;
+}
+.thuc-don-ngang li{
+	display:inline-block;	
+	padding:10px;
+}
+.thuc-don-ngang li a{
+	padding:10px;
+	color:white;
+}
+.thuc-don-dung li{
+	min-width:150px;
+	padding:10px;
+}
+.thuc-don-dung li a{
+	color:white;
+}
+.form-group{
+	margin-bottom: 8px;
+}
+.form-control{
+	height:29px;
+}
+.form-horizontal .control-label{
+	font-weight:600;
+	text-align: left;
+}
